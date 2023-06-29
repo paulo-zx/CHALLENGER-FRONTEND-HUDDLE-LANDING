@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Poppins:ital,wght@0,600;1,400&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background:hsl(257, 40%, 49%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1{
+width: 100%;
+height: 100vh;
+background-size: cover; 
+background:url(./images/bg-desktop.svg);    
+background-position: center center;
+background-size: cover;
+background-size: 100% 100%;
+background-repeat: no-repeat; 
+display: flex;
+flex-direction: column; 
+justify-content: center;
+align-items: center;
+}
+
+.header{
+    width: 200px;
+    height: 100px;
+    background: transparent;
+    margin-right: 900px;
+}
+
+.h1{
+    width: 200px;
+    height: 100px;
+    background:url(./images/logo.svg);    
+    background-position: center center;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+}
+
+.container{
+    width: 1000px;
+    height: 400px;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    column-gap: 3%;
+}
+
+
+.box1{
+    width: 450px;
+    height: 400px;
+    background: transparent;
+}
+
+.img2{
+    width: 450px;
+    height: 400px;    
+    background-position: center center;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.box2{
+    width: 450px;
+    height: 340px;
+    background: hsl(257, 40%, 49%);
+    display: flex;
+    flex-direction: column;
+    row-gap: 10%;
+    padding-top: 5%;
+
+}
+
+.b2-1{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.b2-2{
+    color: white;
+    font-size: 11px;
+    font-weight: 100;
+}
+
+.b2-3{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 150px;
+    height: 40px;
+    border-radius: 1rem;
+    background-color: white;
+    color:hsl(257, 40%, 49%);
+    cursor: pointer;
+}
+
+.b2-3:hover{
+    background-color: hsl(300, 69%, 71%);
+    color:white;
+}
+
+
+
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 0.75em 0.75em 0;
+    margin-left: 800px;
+    
+  }
+  
+  .socials div {
+    border-radius: 50%;
+    border: 1px solid #FFF;
+    height: fit-content;
+    width: fit-content;
+  }
+  
+  .socials div:hover {
+    border-color: hsl(300, 69%, 71%);
+  }
+  
+  .facebook {
+    padding: 0.55em 0.8em;
+  }
+  
+  .twitter {
+    padding: 0.55em 0.75em;
+  
+  }
+  
+  .instagram {
+    padding: 0.55em 0.7em;
+  
+  }
+  
+  .socials div+div {
+    margin-left: 1em;
+  }
+  
+  i {
+    font-size: 1.1rem;
+    color: #FFF;
+    margin: 0 auto;
+  }
+  
+  i:hover {
+    color:hsl(300, 69%, 71%);
+    cursor: pointer;
+  }
+  
+  .fa-instagram {
+    font-size: 1.3rem;
+  }
+
